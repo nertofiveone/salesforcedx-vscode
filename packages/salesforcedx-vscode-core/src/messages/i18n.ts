@@ -50,5 +50,7 @@ export const messages = {
   force_source_status_text:
     'View All Changes (Local and in Default Scratch Org)',
 
-  force_apex_test_run_text: 'SFDX: Invoke Apex Tests...'
+  force_apex_test_run_text: 'SFDX: Invoke Apex Tests...',
+
+  force_create_apex_text: 'SFDX: Create Apex Class'
 };

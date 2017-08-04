@@ -21,9 +21,7 @@
   "engines": {
     "vscode": "^1.13.0"
   },
-  "categories": [
-    "Other"
-  ],
+  "categories": ["Other"],
   "dependencies": {
     "@salesforce/salesforcedx-utils-vscode": "40.4.0",
     "rxjs": "^5.4.1"
@@ -80,6 +78,11 @@
           "command": "sfdx.force.task.stop",
           "when": "view == sfdx.force.tasks.view"
         }
+      ],
+      "explorer/context": [
+        {
+          "command": "sfdx.force.create.apex"
+        }
       ]
     },
     "commands": [
@@ -114,6 +117,10 @@
       {
         "command": "sfdx.force.task.stop",
         "title": "%cancel_sfdx_command_text%"
+      },
+      {
+        "command": "sfdx.force.create.apex",
+        "title": "%force_create_apex_text%"
       }
     ]
   }
